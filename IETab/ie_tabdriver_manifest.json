@@ -1,0 +1,7 @@
+{
+    "name": "net.browser.plugincompatibility.driver",
+    "description": "Plugin Compatibility Driver",
+    "path": "IETabDriver.exe",
+    "type": "stdio",
+    "allowed_origins": [ "chrome-extension://aliccbcnoclomjjfbclkpjnnfjadgceg/" ]
+}

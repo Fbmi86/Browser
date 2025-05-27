@@ -1,0 +1,172 @@
+QMainWindow {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+}
+
+#header {
+    background-color: #3a3a3a;
+    border-bottom: 1px solid #555555;
+}
+
+#toolbar {
+    background-color: #4a4a4a;
+    border-bottom: 1px solid #555555;
+}
+
+#addressBar {
+    background-color: #5a5a5a;
+    border: 1px solid #666666;
+    padding: 3px;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+QPushButton {
+    background-color: #5a5a5a;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    padding: 5px;
+    color: #e0e0e0;
+}
+QPushButton:hover {
+    background-color: #6a6a6a;
+}
+QPushButton:pressed {
+    background-color: #7a7a7a;
+}
+
+#tabWidget::pane {
+    border: 1px solid #666666;
+    background-color: #3e3e3e;
+}
+
+/* Custom Tab Bar Styling */
+#customTabBarContainer {
+    background-color: #4a4a4a;
+    border-bottom: 1px solid #555555;
+}
+
+#tabScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+#tabBarWidget {
+    background-color: transparent;
+}
+
+.CustomTabButton {
+    background-color: #5a5a5a;
+    border: 1px solid #666666;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 2px;
+    padding: 0px;
+}
+.CustomTabButton:hover {
+    background-color: #6a6a6a;
+}
+.CustomTabButton.active {
+    background-color: #3e3e3e;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+.CustomTabButton QPushButton {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    min-width: 100px;
+    max-width: 150px;
+    text-align: left;
+    color: #e0e0e0;
+}
+.CustomTabButton QPushButton:hover {
+    background-color: transparent;
+}
+.CustomTabButton QPushButton:pressed {
+    background-color: transparent;
+}
+
+.CustomTabButton QToolButton {
+    background-color: transparent;
+    border: none;
+    padding: 0 5px;
+    margin-left: 5px;
+    color: #e0e0e0;
+}
+.CustomTabButton QToolButton:hover {
+    background-color: #7a7a7a;
+    border-radius: 3px;
+}
+
+#tabCounterLabel {
+    background-color: transparent;
+    color: #aaaaaa;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+#progressBar {
+    background-color: #4a4a4a;
+    border: none;
+    text-align: center;
+}
+#progressBar::chunk {
+    background-color: #27ae60;
+}
+
+#homePage {
+    background-color: #383838;
+}
+#homePage #logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+#homePage #searchBar {
+    border: 1px solid #666666;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5a5a5a;
+    color: #e0e0e0;
+}
+
+#bookmarksList {
+    background-color: #3e3e3e;
+    border: 1px solid #666666;
+    color: #e0e0e0;
+}
+
+QDialog {
+    background-color: #3e3e3e;
+    color: #e0e0e0;
+}
+QDialog QLabel {
+    color: #e0e0e0;
+}
+QDialog QLineEdit {
+    background-color: #5a5a5a;
+    border: 1px solid #666666;
+    padding: 5px;
+    border-radius: 3px;
+    color: #e0e0e0;
+}
+QDialog QComboBox {
+    background-color: #5a5a5a;
+    border: 1px solid #666666;
+    padding: 5px;
+    border-radius: 3px;
+    color: #e0e0e0;
+}
+QDialog QPushButton {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+QDialog QPushButton:hover {
+    background-color: #229954;
+}
